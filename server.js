@@ -4,6 +4,6 @@ const app = express();
 
 // app.use(express.static('/dist/song-launch'));
 app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/dist/song-laungh/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/song-launch/index.html'));
 });
 app.listen(process.env.PORT || 8080);
